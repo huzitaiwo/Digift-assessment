@@ -179,8 +179,9 @@ h2 {
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
-.products .card p, .products .card small {
-  font-size: 12px;
+.products .card p, 
+.products .card small {
+  font-size: 0.75rem;
 }
 .products .card small {
   display: flex;
@@ -216,4 +217,11 @@ h2 {
   background: #0078FF;
   border-color: #0078FF;
   color: #fff;
+}
+
+.review h2 {
+  font-size: 3.5rem;
+  max-width: 800px;
+  margin: 15px auto;
+  text-align: center;
 }
