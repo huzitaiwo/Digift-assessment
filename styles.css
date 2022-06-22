@@ -209,6 +209,9 @@ h2 {
   background: none;
   border: 1px solid #F5F7FA;
 }
+.more-btn img {
+  margin-left: 10px;
+}
 .more-btn:hover {
   background: #0078FF;
   border-color: #0078FF;
