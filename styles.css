@@ -228,7 +228,7 @@ h2 {
 .review__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid: 20px;
+  gap: 20px;
   color: #8A91A8;
 }
 .review .card {
@@ -246,4 +246,16 @@ h2 {
 }
 .review .card__footer h5 {
   color: #000429;
+  font-weight: 700;
+}
+.awareness {
+  background: #0078FF;
+  height: 480px;
+  color: #fff;
+}
+.awareness h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  max-width: 700px;
+  padding: 50px;
 }
