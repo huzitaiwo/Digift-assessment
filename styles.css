@@ -148,19 +148,19 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
-.card {
+.products .card {
   background: #F5F7FA;
   color: #8A91A8;
   padding: 10px;
   border-radius: 5px;
 }
-.card__content {
+.products .card__content {
   background: #fff;
   border: 1px solid #EBEFF5;
   padding: 15px;
   border-radius: 5px;
 }
-.card__button {
+.products .card__button {
   background: #F5F5F5;
   color: #6F6F80;
   border-radius: 100px;
@@ -168,27 +168,27 @@ h2 {
   border: none;
   font-weight: 500;
 }
-.card__title {
+.products .card__title {
   display: flex;
   align-items: center;
   margin: 15px 0 10px;
   color: #000429;
 }
-.card__body {
+.products .card__body {
   border-bottom: 1px solid #F5F7FA;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
-.card p, .card small {
+.products .card p, .products .card small {
   font-size: 12px;
 }
-.card small {
+.products .card small {
   display: flex;
 }
-.card small img {
+.products .card small img {
   margin-right: 7px;
 }
-.btn {
+.products .btn {
   background: #0078FF;
   width: 100%;
   padding: 10px 0;
