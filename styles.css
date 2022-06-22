@@ -218,10 +218,32 @@ h2 {
   border-color: #0078FF;
   color: #fff;
 }
-
 .review h2 {
   font-size: 3.5rem;
   max-width: 800px;
   margin: 15px auto;
   text-align: center;
+  color: #000429;
+}
+.review__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid: 20px;
+  color: #8A91A8;
+}
+.review .card {
+  padding: 20px;
+  border: 2px solid #EBEFF5;
+  border-radius: 8px;
+}
+.review .card__footer {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.review .card__footer img {
+  margin-right: 10px;
+}
+.review .card__footer h5 {
+  color: #000429;
 }
