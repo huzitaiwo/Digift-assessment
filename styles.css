@@ -200,3 +200,17 @@ h2 {
 .btn img {
   margin-left: 10px;
 }
+.more-btn {
+  display: block;
+  width: 200px;
+  margin: 30px auto;
+  padding: 10px 15px;
+  border-radius: 3px;
+  background: none;
+  border: 1px solid #F5F7FA;
+}
+.more-btn:hover {
+  background: #0078FF;
+  border-color: #0078FF;
+  color: #fff;
+}
