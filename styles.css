@@ -7,11 +7,14 @@
   font-family: 'DM Sans', sans-serif;
 }
 nav {
-  min-height: 10vh;
+  color: #8A91A8;
+  border-bottom: 1px solid #F3F4F7;
+}
+nav .container {
+  min-height: 15vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #8A91A8;
 }
 .container {
   max-width: 1200px;
