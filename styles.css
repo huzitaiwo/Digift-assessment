@@ -69,3 +69,20 @@ form.search input::placeholder {
 .brightness {
   background: #fff;
 }
+.action {
+  display: flex;
+}
+.action button {
+  border-radius: 3px;
+  padding: 12px 15px;
+  border: none;
+  background: none;
+  color: #8A91A8;
+}
+button.started {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  background: #0078FF;
+  color: #fff;
+}
