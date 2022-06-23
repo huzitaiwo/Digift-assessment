@@ -323,3 +323,25 @@ footer ul.policy li {
 footer ul.policy img {
   margin-left: 5px;
 }
+.footer__note {
+  padding: 60px 0;
+}
+.footer__note .note {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  gap: 20px;
+}
+.footer__note .hex {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #8A91A8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F5F7FA;
+}
+.footer__note .copyright {
+  margin-top: 30px;
+}
