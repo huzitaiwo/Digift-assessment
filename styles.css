@@ -107,7 +107,30 @@ button.started {
 .banner {
   background: #0078FF;
   border-radius: 20px;
-  height: 500px;
+  height: 682px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner p {
+  max-width: 350px;
+  padding: 20px 0 30px;
+}
+.banner button {
+  background: #fff;
+  padding: 15px 20px;
+  color: #0078FF;
+  border: none;
+  font-weight: bold;
+  border-radius: 3px;
+}
+h1 {
+  font-size: 4rem;
+  max-width: 650px;
+  margin: 0 auto;
 }
 h2 {
   font-weight: 700;
@@ -254,12 +277,12 @@ h2 {
   border-radius: 20px;
   display: flex;
   align-items: center;
+  padding: 0 50px;
 }
 .awareness h2 {
   font-size: 4rem;
   font-weight: 700;
   max-width: 700px;
-  padding: 0 50px;
 }
 footer {
   margin: 30px 0;
@@ -376,6 +399,7 @@ footer ul.policy img {
   }
   .sidebar {
     margin-bottom: 15px;
+    padding: 15px;
   }
   .products-grid {
     display: block;
@@ -383,11 +407,11 @@ footer ul.policy img {
   .review h2 {
     font-size: 2.5rem;
   }
-  .awareness {
+  .awareness, .banner {
     height: auto;
-    padding: 50px 0;
+    padding: 50px 20px;
   }
-  .awareness h2 {
+  .awareness h2, .banner h1 {
     font-size: 3rem;
   }
   footer .footer {
@@ -413,11 +437,13 @@ footer ul.policy img {
   .review h2 {
     font-size: 2rem;
   }
-  .awareness {
-    padding: 30px 0;
+  .awareness,
+  .banner {
+    padding: 30px 20px;
   }
-  .awareness h2 {
-    font-size: 2.5rem;
+  .awareness h2,
+  .banner h1 {
+    font-size: 2rem;
   }
   .footer__note .note {
     display: block;
