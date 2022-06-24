@@ -3,4 +3,5 @@ const hamburgerIcon = document.querySelector('.hamburger')
 
 hamburgerIcon.addEventListener('click', () => {
   navigation.classList.toggle('active')
+  hamburgerIcon.classList.toggle('active')
 })
