@@ -359,6 +359,7 @@ footer ul.policy img {
   grid-template-columns: 100px 1fr;
   align-items: center;
   gap: 20px;
+  text-align: justify;
 }
 .footer__note .hex {
   width: 96px;
@@ -398,6 +399,15 @@ footer ul.policy img {
   }
   .hamburger {
     display: initial;
+  }
+  .hamburger .close {
+    display: none;
+  }
+  .hamburger.active .close {
+    display: block;
+  }
+  .hamburger.active .menu {
+    display: none;
   }
   nav .navigation {
     background: #0078FF;
@@ -501,7 +511,7 @@ footer ul.policy img {
   }
   .awareness h2,
   .banner h1 {
-    font-size: 2rem;
+    font-size: 1.85rem;
   }
   .footer__note .note {
     display: block;
